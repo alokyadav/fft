@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Xilinx\Assignments\fft\Main_fft_entity.ncd
+OUTFILE=D:\Xilinx\Assignments\fft\Main_fft_entity.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=D:\Xilinx\Assignments\fft
+LICENSE=WebPack
+USER_INFO=210731625_0_0_550

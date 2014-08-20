@@ -1,0 +1,41 @@
+xst -intstyle ise -ifn "D:/Xilinx/Assignments/fft/Main_fft_entity.xst" -ofn "D:/Xilinx/Assignments/fft/Main_fft_entity.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 Main_fft_entity.ngc Main_fft_entity.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_fft_entity_map.ncd Main_fft_entity.ngd Main_fft_entity.pcf 
+par -w -intstyle ise -ol high -mt off Main_fft_entity_map.ncd Main_fft_entity.ncd Main_fft_entity.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_fft_entity.twx Main_fft_entity.ncd -o Main_fft_entity.twr Main_fft_entity.pcf 
+bitgen -intstyle ise -f Main_fft_entity.ut Main_fft_entity.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/Assignments/fft/Main_fft_entity.xst" -ofn "D:/Xilinx/Assignments/fft/Main_fft_entity.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 Main_fft_entity.ngc Main_fft_entity.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_fft_entity_map.ncd Main_fft_entity.ngd Main_fft_entity.pcf 
+par -w -intstyle ise -ol high -mt off Main_fft_entity_map.ncd Main_fft_entity.ncd Main_fft_entity.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_fft_entity.twx Main_fft_entity.ncd -o Main_fft_entity.twr Main_fft_entity.pcf 
+bitgen -intstyle ise -f Main_fft_entity.ut Main_fft_entity.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 Main_fft_entity.ngc Main_fft_entity.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_fft_entity_map.ncd Main_fft_entity.ngd Main_fft_entity.pcf 
+par -w -intstyle ise -ol high -mt off Main_fft_entity_map.ncd Main_fft_entity.ncd Main_fft_entity.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_fft_entity.twx Main_fft_entity.ncd -o Main_fft_entity.twr Main_fft_entity.pcf 
+bitgen -intstyle ise -f Main_fft_entity.ut Main_fft_entity.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/Assignments/fft/Main_fft_entity.xst" -ofn "D:/Xilinx/Assignments/fft/Main_fft_entity.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fft_const.ucf -p xc6slx45-csg324-3 Main_fft_entity.ngc Main_fft_entity.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_fft_entity_map.ncd Main_fft_entity.ngd Main_fft_entity.pcf 
+par -w -intstyle ise -ol high -mt off Main_fft_entity_map.ncd Main_fft_entity.ncd Main_fft_entity.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_fft_entity.twx Main_fft_entity.ncd -o Main_fft_entity.twr Main_fft_entity.pcf -ucf fft_const.ucf 
+bitgen -intstyle ise -f Main_fft_entity.ut Main_fft_entity.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/Assignments/fft/Main_fft_entity.xst" -ofn "D:/Xilinx/Assignments/fft/Main_fft_entity.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fft_const.ucf -p xc6slx45-csg324-3 Main_fft_entity.ngc Main_fft_entity.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_fft_entity_map.ncd Main_fft_entity.ngd Main_fft_entity.pcf 
+par -w -intstyle ise -ol high -mt off Main_fft_entity_map.ncd Main_fft_entity.ncd Main_fft_entity.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_fft_entity.twx Main_fft_entity.ncd -o Main_fft_entity.twr Main_fft_entity.pcf -ucf fft_const.ucf 
+bitgen -intstyle ise -f Main_fft_entity.ut Main_fft_entity.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/Assignments/fft/Main_fft_entity.xst" -ofn "D:/Xilinx/Assignments/fft/Main_fft_entity.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fft_const.ucf -p xc6slx45-csg324-3 Main_fft_entity.ngc Main_fft_entity.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_fft_entity_map.ncd Main_fft_entity.ngd Main_fft_entity.pcf 
+par -w -intstyle ise -ol high -mt off Main_fft_entity_map.ncd Main_fft_entity.ncd Main_fft_entity.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_fft_entity.twx Main_fft_entity.ncd -o Main_fft_entity.twr Main_fft_entity.pcf -ucf fft_const.ucf 
+bitgen -intstyle ise -f Main_fft_entity.ut Main_fft_entity.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/Assignments/fft/Main_fft_entity.xst" -ofn "D:/Xilinx/Assignments/fft/Main_fft_entity.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fft_const.ucf -p xc6slx45-csg324-3 Main_fft_entity.ngc Main_fft_entity.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_fft_entity_map.ncd Main_fft_entity.ngd Main_fft_entity.pcf 
+par -w -intstyle ise -ol high -mt off Main_fft_entity_map.ncd Main_fft_entity.ncd Main_fft_entity.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_fft_entity.twx Main_fft_entity.ncd -o Main_fft_entity.twr Main_fft_entity.pcf -ucf fft_const.ucf 
+bitgen -intstyle ise -f Main_fft_entity.ut Main_fft_entity.ncd 

@@ -1,0 +1,2 @@
+vhdl work "fft_main.vhd"
+vhdl work "Main_fft_entity.vhd"

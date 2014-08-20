@@ -1,0 +1,2 @@
+vhdl isim_temp "fft_main.vhd"
+vhdl isim_temp "Main_fft_entity.vhd"
